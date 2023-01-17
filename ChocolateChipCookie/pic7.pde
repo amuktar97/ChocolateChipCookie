@@ -1,0 +1,27 @@
+void pic7(){
+if(key=='F'||key=='f'){
+pic7=true;
+  };
+if(mouseButton==RIGHT){
+pic7=false;
+  };
+if(start==false){
+pic7=false;
+  };
+if(pic3==false){
+pic7=false;
+  };
+if(pic4==false){
+pic7=false;
+  };
+if(pic5==false){
+pic7=false;
+  };
+if(pic6==false){
+pic7=false;
+  };
+if(pic7==true){
+img6=loadImage("../Images/pic7.jpg");
+image(img6,800,0,appWidth/3,appHeight/3);
+  };
+};
